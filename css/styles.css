@@ -1,28 +1,64 @@
+/*Temas*/
+.theme{
+    --primbkgColor: #2c3e50;
+    --secobkgColor: #1abc9c;
+}
+/*-------------*/
+
+
+/* Extra small devices*/
+@media (min-width: 576px) { 
+    .container{
+        max-width: 540px;
+    }
+ }
+/* Small devices*/
+@media (min-width: 768px) { 
+    .container{
+        max-width: 720px;
+    }
+ }
+/* Medium devices*/
+@media (min-width: 992px) { 
+    .container{
+        max-width: 960px;
+    }
+ }
+/* Large devices*/
+@media (min-width: 1200px) { 
+    .container{
+        max-width: 1140px;
+    }
+ }
+
+
+
 .copyright{
     background-color: #1a252f;
     padding: 30px;
+    text-align: center;
+    color:white;
 }
 footer{
-    background-color:#2c3e50;
+    background-color:var(--primbkgColor);
     color:white;
     padding:100px;
+    text-align: center
 }
-/*.fab{
-    border-radius: 50%;
-}*/
 .fab:hover {
     background-color:white; 
-    color:#2c3e50;
+    color:var(--primbkgColor);
 }
 
 .links{
-    color:#1abc9c;
+    color:var(--secobkgColor);
 }
 .col-foot{
-    margin: 15px;
+    margin-top:15px;
+    margin-bottom: 15px;
 }
-.col-12{
-    margin:10px;
+.gap{
+    margin-bottom:15px;
 }
 
 .fab {
@@ -35,3 +71,69 @@ footer{
     align-items: center;
     border-width: 2px;
 }
+.about{
+    background-color: var(--secobkgColor)!important;
+    padding: 90px 0;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding: 0; 
+}
+
+.section-title{
+    font-size: 36px;
+    line-height: 30px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+.subtitle{
+    font-size:22px;
+    font-weight: bold;
+}
+
+.divider{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 1.25rem 0 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.line-divider{
+    width: 100%;
+    max-width: 112px;
+    height: 4px;
+    background-color: white;
+    border-radius: 16px;
+    border-color: white!important;
+}
+.icon-divider{
+    font-size: 32px;
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button{
+    margin-top: 24px;
+    padding: 16px 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 16px;
+    border-width: 2px;
+    font-size:20px;
+}
+p{
+    margin-bottom: 0;
+}
+.text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
