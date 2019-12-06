@@ -130,3 +130,96 @@ div {
 .ion-icon {
   font-size: 64px;
 }
+
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+h1 { font-size: 66px; font-weight: 700; line-height: 80px; }
+
+p {
+    font-size: 18px;
+    color: #767676;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+a:hover { text-decoration: none; }
+
+a i { font-size: 22px; color: #767676; }
+
+
+.logo-brand {
+    max-width: 180px;
+    min-width: 160px;
+}
+
+.margintop-xs { margin-top: 15px; }
+.margintop-sm { margin-top: 30px; }
+.margintop-lg { margin-top: 60px; }
+
+section { padding: 120px 0; }
+
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    min-height: 100px;
+    position:fixed;
+}
+
+.nav-link { color: #1a1a1a;
+font-size: 20px; }
+.nav-link:hover { color: #0F7DD9; }
+
+
+
+.navbar-toggler { 
+    font-size: 40px;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #8E9193;
+
+
+
+ }
+.navbar-toggler:focus { outline: none; }
+
+
+
+/* //////////////
+   Hero
+//////////////*/
+
+#hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff;
+}
+
