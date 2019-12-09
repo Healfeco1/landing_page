@@ -3,6 +3,14 @@
     --primbkgColor: #2c3e50;
     --secobkgColor: #1abc9c;
 }
+.theme2{
+    --primbkgColor: #502c2c;
+    --secobkgColor: #bc1a1a;
+}
+.theme3{
+    --primbkgColor: #502c50;
+    --secobkgColor: #811abc;
+}
 /*-------------*/
 
 
